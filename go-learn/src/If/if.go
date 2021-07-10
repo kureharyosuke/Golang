@@ -64,7 +64,7 @@ func main() {
 			fmt.Println(("c는 35이상이다."))
 		}
 
-		// c += 20 
+		// c += 20  // 에러발생
 		// // OUTPUT : c는 undefind , 위의 c는 if문을 사용하고 소멸된 c 이기 때문에!
 
 }
