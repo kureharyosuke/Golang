@@ -50,8 +50,8 @@ func main() {
 	case "go":
 		fmt.Println("go!")
 		fallthrough // 특정 case의 문장을 실행한 뒤 다음 case의 문장을 실행하고 싶을 때는 fallthrough 키워드를 사용합니다. 
-	case "python":
-		fmt.Println("python!")
+	case "golang":
+		fmt.Println("golang!")
 	case "ruby":
 		fmt.Println("ruby!")
 	case "c":
@@ -61,7 +61,7 @@ func main() {
 
 // OUTPUT: 
 // go!
-// python!
+// golang!
 
 // fallthrough 사용하기
 // 특정 case의 문장을 실행한 뒤 다음 case의 문장을 실행하고 싶을 때는 fallthrough 키워드를 사용합니다. 
