@@ -38,6 +38,7 @@ func main() {
 		// fallthrough // cannot fallthrough final case in switch
 	}
 
+// OUTPUT: 
 // go!
 // python!
 // ruby!
@@ -48,7 +49,7 @@ func main() {
 		fmt.Println("java!")
 	case "go":
 		fmt.Println("go!")
-		fallthrough
+		fallthrough // 특정 case의 문장을 실행한 뒤 다음 case의 문장을 실행하고 싶을 때는 fallthrough 키워드를 사용합니다. 
 	case "python":
 		fmt.Println("python!")
 	case "ruby":
@@ -61,6 +62,11 @@ func main() {
 // OUTPUT: 
 // go!
 // python!
+
+// fallthrough 사용하기
+// 특정 case의 문장을 실행한 뒤 다음 case의 문장을 실행하고 싶을 때는 fallthrough 키워드를 사용합니다. 
+// 마치 C, C++의 switch 분기문에서 break 키워드를 생략한 것처럼 동작합니다. 
+// 단, 맨 마지막 case에는 fallthrough 키워드를 사용할 수 없습니다.
 
 }
 
