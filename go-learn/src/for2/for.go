@@ -45,9 +45,9 @@ func main() {
 	sum3, i := 0, 0
 
 	for { // while 형태랑 비슷!
-		if i > 150 {
-			break
-		}
+		if i > 150 { // 이 부분으로 while 같은 for문의 조건을 넣어 계속 infinite 를 막았줌.
+			break 
+		}  
 		sum3 += i
 		i++
 	}
